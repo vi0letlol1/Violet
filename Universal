@@ -7,16 +7,17 @@ local function initialize()
             Duration = 5
         })
     end)
-        loadstring(game:HttpGet("https://pastebin.com/raw/PFSgTBcz"))()
-    task.wait(1)
+        loadstring(game:HttpGet("https://pastebin.com/raw/PFSgTBcz"))() --// This is main discord invite script ( makes it so when they press join server it opens their discord and it joins the server automatically.
+   
+ task.wait(1)
 
     pcall(function()
         game:GetService("StarterGui"):SetCore("SendNotification", {
             Title = "Loading",
-            Text = "Loading script... this may take a few seconds.",
+            Text = "Loading script... this may take 6 or 7 seconds.",
             Duration = 5
         })
     end)
-   loadstring(game:HttpGet("https://pastebin.com/raw/1rQ7FCWV"))()
+   loadstring(game:HttpGet("https://pastebin.com/raw/1rQ7FCWV"))() --// this is the Main script that you want to load right after the discord invite script (the pastebin is the universal script)
 end
 initialize()
