@@ -6,8 +6,8 @@ local function initialize()
             Text = "Discord invite copied to your clipboard!",
             Duration = 5
         })
-    end)
-        loadstring(game:HttpGet("https://pastebin.com/raw/1rQ7FCWV"))() --// This is main discord invite script ( makes it so when they press join server it opens their discord and it joins the server automatically.
+    end) 
+    loadstring(game:HttpGet("https://pastebin.com/raw/PFSgTBcz"))()--// This is main discord invite script ( makes it so when they press join server it opens their discord and it joins the server automatically.
    
  task.wait(1)
 
@@ -18,6 +18,6 @@ local function initialize()
             Duration = 5
         })
     end)
-   loadstring(game:HttpGet("https://pastebin.com/raw/PFSgTBcz"))() --// this is the Main script that you want to load right after the discord invite script (the pastebin is the universal script)
+  loadstring(game:HttpGet("https://pastebin.com/raw/1rQ7FCWV"))() --// this is the Main script that you want to load right after the discord invite script (the pastebin is the universal script)
 end
 initialize()
