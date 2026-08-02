@@ -18,6 +18,6 @@ local function initialize()
             Duration = 5
         })
     end)
-   loadstring(game:HttpGet("https://pastebin.com/raw/7y6ZdgVs"))() --// this is the Main script that you want to load right after the discord invite script (the pastebin is the universal script)
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/vi0letlol1/Violet/refs/heads/main/Game/Operation%20one"))() --// this is the Main script that you want to load right after the discord invite script (the pastebin is the universal script) --// this is the Main script that you want to load right after the discord invite script (this is the main script)
 end
 initialize()
